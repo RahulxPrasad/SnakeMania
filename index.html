@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Mania</title>
+    
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+
+    <link rel="stylesheet" href="index.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="score-box">
+            <div id="highscorebox">High Score: 0</div>
+            <div id="scorebox">Score: 0</div>
+        </div>
+        <div id="board"></div>
+        <div class="controls">
+            <button id="key_up" class="control-btn" onclick=key_up()><i class="bi bi-caret-up-fill"></i></button>
+            <button id="key_left" class="control-btn" onclick=key_left()><i class="bi bi-caret-left-fill"></i></button>
+            <button id="key_right" class="control-btn" onclick=key_right()><i class="bi bi-caret-right-fill"></i></button>
+            <button id="key_down" class="control-btn" onclick=key_down()><i class="bi bi-caret-down-fill"></i></button>
+        </div>
+    </div>
+</body>
+
+<script src="index.js"></script>
+
+</html>
